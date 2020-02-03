@@ -1,0 +1,40 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject",
+    "tslint": "tslint --project ./  --fix",
+    "test": "jest"
+  },
+  "dependencies": {
+    "expo": "^33.0.0",
+    "firebase": "^7.8.0",
+    "native-base": "^2.13.8",
+    "react": "16.8.3",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-33.0.0.tar.gz",
+    "react-redux": "^6.0.0",
+    "redux": "^4.0.1",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "tslib": "1.9.3"
+  },
+  "devDependencies": {
+    "@types/expo": "32.0.13",
+    "@types/expo__vector-icons": "9.0.0",
+    "@types/jest": "^23.3.13",
+    "@types/react": "16.7.22",
+    "@types/react-native": "0.57.32",
+    "@types/react-redux": "^7.0.1",
+    "babel-preset-expo": "^5.0.0",
+    "jest": "^24.0.0",
+    "prettier": "^1.16.3",
+    "remote-redux-devtools": "^0.5.16",
+    "tslint": "^5.12.1",
+    "tslint-config-prettier": "^1.17.0",
+    "tslint-plugin-prettier": "^2.0.1",
+    "typescript": "3.3.1"
+  },
+  "private": true
+}

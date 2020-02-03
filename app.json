@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "react-native-redux-expo-typescript",
+    "description": "",
+    "slug": "react-native-redux-expo-typescript",
+    "privacy": "public",
+    "sdkVersion": "33.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/app-icon.png",
+    "splash": {
+      "image": "./assets/launch.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#473be7"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.athulnair.boilerplate"
+    },
+    "android": {
+      "package": "com.athulnair.boilerplate"
+    }
+  }
+}
